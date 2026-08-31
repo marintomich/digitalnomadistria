@@ -50,28 +50,28 @@
         "town": "Pula",
         "note": "Full-time desks and meeting rooms near the old town; the amphitheatre is a ten-minute walk for when you need a break that isn't a screen.",
         "tag": "Desks + meeting rooms",
-        "image": "images/terrace.svg"
+        "image": "images/pulaCoworking.jpg"
       },
       {
         "name": "Motovun Studio Loft",
         "town": "Motovun",
         "note": "A converted stone loft above the hill town square. Slower internet than the coast, but the view is the actual reason people book it.",
         "tag": "Quiet, hill town",
-        "image": "images/vineyard.svg"
+        "image": "images/motovun.avif"
       },
       {
         "name": "Rovinj Harbour Desk",
         "town": "Rovinj",
         "note": "Drop-in seating near the harbour, popular in shoulder season and genuinely crowded in July — plan accordingly.",
         "tag": "Drop-in, coastal",
-        "image": "images/coastline.svg"
+        "image": "images/rovinj.jpg"
       },
       {
         "name": "Pazin Valley Workspace",
         "town": "Pazin",
         "note": "Central, unglamorous, reliably fast, and the cheapest desk rate on this list. Good default if you're not chasing a view.",
         "tag": "Best value",
-        "image": "images/terrace.svg"
+        "image": "images/pazin.jpg"
       }
     ]
   },
@@ -81,19 +81,19 @@
       {
         "name": "The coast — Rovinj, Poreč, Vrsar",
         "text": "The obvious choice, and the most expensive one. Best if you want restaurants, other remote workers, and a swim after your last call. Book shoulder season if you can; July and August prices roughly double.",
-        "image": "images/coastline.svg",
+        "image": "images/porecCoast.jpg",
         "alt": "Placeholder: Rovinj coastline — replace with real photography"
       },
       {
         "name": "The hill towns — Motovun, Grožnjan, Buzet",
         "text": "Slower, cheaper, and considerably quieter. Grožnjan in particular has an actual resident community of artists and remote workers rather than a tourist crowd. Car access matters more here.",
-        "image": "images/vineyard.svg",
+        "image": "images/groznjan.webp",
         "alt": "Placeholder: vineyard rows near Motovun — replace with real photography"
       },
       {
         "name": "The centre — Pazin, Pićan, Gračišće",
         "text": "The least photographed part of Istria and, for that exact reason, the least expensive. Good long-stay value if you don't need to be near the water.",
-        "image": "images/terrace.svg",
+        "image": "images/gracisce.jpg",
         "alt": "Placeholder: central Istria stone terrace — replace with real photography"
       }
     ]

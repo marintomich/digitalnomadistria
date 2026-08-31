@@ -153,7 +153,7 @@ Each `<img>` tag's `alt` text says exactly what should replace it, e.g.
 Swap in real photos at matching aspect ratios:
 
 - `images/hero-hilltown.svg` → hero, roughly 4:5 to 1:1, full-bleed.
-- `images/coastline.svg`, `images/vineyard.svg`, `images/terrace.svg` →
+- `images/rovinj.jpg`, `images/vineyard.svg`, `images/pulaCoworking.jpg` →
   4:3 (work cards) or 5:4 (stay spreads).
 
 Export real photography as WebP with responsive `srcset` sizes before

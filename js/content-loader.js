@@ -43,7 +43,7 @@
       .map(function (space) {
         return (
           '<article class="work-card"><div class="work-card-media"><img src="' +
-          escapeHtml(space.image || "images/terrace.svg") +
+          escapeHtml(space.image || "images/pulaCoworking.jpg") +
           '" alt="Placeholder photo — replace with real photography of ' +
           escapeHtml(space.name) +
           '"></div><div class="work-card-body"><span class="work-card-tag">' +
@@ -70,7 +70,7 @@
           '<div class="stay-spread' +
           flip +
           '"><div class="stay-media"><img src="' +
-          escapeHtml(region.image || "images/coastline.svg") +
+          escapeHtml(region.image || "images/rovinj.jpg") +
           '" alt="' +
           escapeHtml(region.alt || "Placeholder photo — replace with real photography") +
           '"></div><div class="stay-copy"><h3>' +
