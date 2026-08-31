@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img">
+  <title>Placeholder: working from a stone terrace — replace with real photography</title>
+  <rect width="800" height="600" fill="#E9DFC4"/>
+  <rect y="420" width="800" height="180" fill="#C9BB94"/>
+  <rect x="90" y="380" width="230" height="16" fill="#8C7A54"/>
+  <rect x="150" y="330" width="110" height="12" fill="#2A241C"/>
+  <rect x="185" y="300" width="40" height="34" fill="#2A241C"/>
+  <rect x="500" y="60" width="16" height="340" fill="#5B6B3F"/>
+  <ellipse cx="560" cy="120" rx="90" ry="46" fill="#6E8049"/>
+  <ellipse cx="480" cy="150" rx="70" ry="38" fill="#5B6B3F"/>
+  <ellipse cx="600" cy="180" rx="60" ry="34" fill="#6E8049"/>
+</svg>

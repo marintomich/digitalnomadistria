@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "site_title": "Digital Nomads Istria — Work from the Peninsula",
+    "site_description": "A field guide to living and working remotely in Istria, Croatia — coworking, coast towns, hill towns, visas, and the people who've already made the move."
+  },
+  "nav": {
+    "brand": "Digital Nomads Istria"
+  },
+  "hero": {
+    "eyebrow": "A working life on the peninsula",
+    "headline": "Istria runs on its own clock, and your laptop still gets a signal.",
+    "subhead": "Stone towns on the hills, the Adriatic at the bottom of every road, and enough fibre to hold a client call from a terrace. This is the practical, unromantic guide to actually doing it.",
+    "cta_primary": "Start planning your move",
+    "cta_secondary": "See where people work",
+    "stat_value": "38",
+    "stat_label": "towns and villages covered, from Buje to Labin"
+  },
+  "why": {
+    "heading": "Why people stay longer than they planned",
+    "intro": "None of this is marketing copy from a tourist board. It's what changes once you're actually working from here.",
+    "rows": [
+      {
+        "label": "Connectivity",
+        "text": "Fibre reaches most coastal towns and the larger hill towns; rural stretches vary, so we note actual measured speeds per location, not carrier promises."
+      },
+      {
+        "label": "Cost of living",
+        "text": "A one-bedroom outside the main tourist strips runs well under Western European rates, and drops further the moment you move inland from June or Rovinj."
+      },
+      {
+        "label": "Pace of life",
+        "text": "Shops close for the afternoon, dinner starts late, and nobody expects a reply at 9pm. Your calendar adjusts faster than you'd think."
+      },
+      {
+        "label": "Visas and paperwork",
+        "text": "Croatia's digital nomad permit is workable but bureaucratic. We keep a running, dated breakdown of the actual steps, not the summary version."
+      },
+      {
+        "label": "Culture and food",
+        "text": "Istrian cuisine sits closer to northern Italy than the rest of Croatia — truffles, olive oil, malvazija — and the produce is local by default, not by branding."
+      }
+    ]
+  },
+  "work": {
+    "heading": "Where to actually get work done",
+    "intro": "A short list of places we've sat in long enough to trust the wifi and the coffee.",
+    "spaces": [
+      {
+        "name": "Pula Coworking Hub",
+        "town": "Pula",
+        "note": "Full-time desks and meeting rooms near the old town; the amphitheatre is a ten-minute walk for when you need a break that isn't a screen.",
+        "tag": "Desks + meeting rooms",
+        "image": "images/terrace.svg"
+      },
+      {
+        "name": "Motovun Studio Loft",
+        "town": "Motovun",
+        "note": "A converted stone loft above the hill town square. Slower internet than the coast, but the view is the actual reason people book it.",
+        "tag": "Quiet, hill town",
+        "image": "images/vineyard.svg"
+      },
+      {
+        "name": "Rovinj Harbour Desk",
+        "town": "Rovinj",
+        "note": "Drop-in seating near the harbour, popular in shoulder season and genuinely crowded in July — plan accordingly.",
+        "tag": "Drop-in, coastal",
+        "image": "images/coastline.svg"
+      },
+      {
+        "name": "Pazin Valley Workspace",
+        "town": "Pazin",
+        "note": "Central, unglamorous, reliably fast, and the cheapest desk rate on this list. Good default if you're not chasing a view.",
+        "tag": "Best value",
+        "image": "images/terrace.svg"
+      }
+    ]
+  },
+  "stay": {
+    "heading": "Where to base yourself",
+    "regions": [
+      {
+        "name": "The coast — Rovinj, Poreč, Vrsar",
+        "text": "The obvious choice, and the most expensive one. Best if you want restaurants, other remote workers, and a swim after your last call. Book shoulder season if you can; July and August prices roughly double.",
+        "image": "images/coastline.svg",
+        "alt": "Placeholder: Rovinj coastline — replace with real photography"
+      },
+      {
+        "name": "The hill towns — Motovun, Grožnjan, Buzet",
+        "text": "Slower, cheaper, and considerably quieter. Grožnjan in particular has an actual resident community of artists and remote workers rather than a tourist crowd. Car access matters more here.",
+        "image": "images/vineyard.svg",
+        "alt": "Placeholder: vineyard rows near Motovun — replace with real photography"
+      },
+      {
+        "name": "The centre — Pazin, Pićan, Gračišće",
+        "text": "The least photographed part of Istria and, for that exact reason, the least expensive. Good long-stay value if you don't need to be near the water.",
+        "image": "images/terrace.svg",
+        "alt": "Placeholder: central Istria stone terrace — replace with real photography"
+      }
+    ]
+  },
+  "lifestyle": {
+    "heading": "What fills the hours you're not working",
+    "items": [
+      { "town": "Rovinj", "note": "Old town streets, harbour swims, the Batana boat museum." },
+      { "town": "Pula", "note": "Roman amphitheatre still in use for concerts and film screenings." },
+      { "town": "Motovun", "note": "Hilltop walls, truffle season from autumn through winter." },
+      { "town": "Grožnjan", "note": "Artist studios, small galleries, a genuine resident creative scene." },
+      { "town": "Pazin", "note": "The canyon that reportedly inspired Jules Verne; far fewer visitors than the coast." },
+      { "town": "Vineyards inland", "note": "Malvazija and teran tastings, most family-run and open by appointment." }
+    ]
+  },
+  "community": {
+    "heading": "Support that isn't a search engine",
+    "intro": "Three things people ask us about in the first week, every time.",
+    "services": [
+      {
+        "title": "Visas and residence",
+        "text": "Guidance through Croatia's digital nomad permit and the local police-administration process, from someone who's filed it before."
+      },
+      {
+        "title": "Legal and tax basics",
+        "text": "Introductions to English-speaking accountants and lawyers who work with foreign remote workers, not just local businesses."
+      },
+      {
+        "title": "Finding a place to land",
+        "text": "A shortlist of long-stay landlords who are used to remote workers and won't disappear after the deposit."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Tell us what you're trying to figure out",
+    "intro": "One message is enough to start — where you're coming from, roughly when, and what you're unsure about. We reply from a person, not a template.",
+    "form_endpoint": "https://api.web3forms.com/submit",
+    "web3forms_access_key": "REPLACE_WITH_YOUR_WEB3FORMS_ACCESS_KEY",
+    "fallback_email": "hello@digitalnomadsistria.com",
+    "social": [
+      { "label": "Instagram", "url": "https://instagram.com/" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/" }
+    ]
+  },
+  "footer": {
+    "tagline": "A field guide to remote work in Istria, kept current by people who live here.",
+    "credit": "Site built and maintained for Digital Nomads Istria."
+  }
+}

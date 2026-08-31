@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img">
+  <title>Placeholder: vineyard rows near Motovun — replace with real photography</title>
+  <rect width="800" height="600" fill="#D8C79A"/>
+  <rect y="0" width="800" height="260" fill="#E4D4A8"/>
+  <g stroke="#5B6B3F" stroke-width="10" opacity="0.85">
+    <line x1="-50" y1="600" x2="300" y2="260"/>
+    <line x1="30" y1="600" x2="360" y2="260"/>
+    <line x1="120" y1="600" x2="420" y2="260"/>
+    <line x1="220" y1="600" x2="480" y2="260"/>
+    <line x1="330" y1="600" x2="540" y2="260"/>
+    <line x1="450" y1="600" x2="600" y2="260"/>
+    <line x1="580" y1="600" x2="660" y2="260"/>
+    <line x1="720" y1="600" x2="720" y2="260"/>
+  </g>
+  <rect x="560" y="120" width="70" height="90" fill="#8C6B3F"/>
+  <polygon points="550,120 700,120 625,80" fill="#6E4F2C"/>
+</svg>

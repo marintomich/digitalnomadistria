@@ -1,0 +1,132 @@
+# CMS configuration for Digital Nomads Istria.
+#
+# backend.name: github  → the CMS commits edits straight to this GitHub repo.
+# It authenticates through a small OAuth helper — see README.md →
+# "Editing content (CMS) → one-time OAuth setup" for exact steps.
+#
+# IMPORTANT: replace `repo` below with your actual "owner/repo-name" before
+# using the admin panel, and update base_url / auth_endpoint to match the
+# OAuth helper you deploy (README covers both options).
+
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME   # <-- change this
+  branch: main
+  base_url: https://your-oauth-helper.example.workers.dev  # <-- change this
+  auth_endpoint: auth
+
+# Content is fetched by the live site at runtime, so no build step runs
+# after a commit — GitHub Pages simply serves the updated JSON file.
+publish_mode: simple
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Site content"
+    files:
+      - name: "hero"
+        label: "Hero section"
+        file: "content/site.json"
+        fields:
+          - { label: "Site title (browser tab)", name: "meta.site_title", widget: "string" }
+          - { label: "Site description (SEO)", name: "meta.site_description", widget: "text" }
+          - { label: "Brand name (nav + footer)", name: "nav.brand", widget: "string" }
+          - { label: "Eyebrow", name: "hero.eyebrow", widget: "string" }
+          - { label: "Headline", name: "hero.headline", widget: "string" }
+          - { label: "Subheading", name: "hero.subhead", widget: "text" }
+          - { label: "Primary button text", name: "hero.cta_primary", widget: "string" }
+          - { label: "Secondary button text", name: "hero.cta_secondary", widget: "string" }
+          - { label: "Stat number", name: "hero.stat_value", widget: "string" }
+          - { label: "Stat caption", name: "hero.stat_label", widget: "string" }
+
+      - name: "why"
+        label: "Why Istria section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "why.heading", widget: "string" }
+          - { label: "Intro", name: "why.intro", widget: "text" }
+          - label: "Rows"
+            name: "why.rows"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+      - name: "work"
+        label: "Where to work section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "work.heading", widget: "string" }
+          - { label: "Intro", name: "work.intro", widget: "text" }
+          - label: "Coworking spaces"
+            name: "work.spaces"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Town", name: "town", widget: "string" }
+              - { label: "Tag (short label)", name: "tag", widget: "string" }
+              - { label: "Note", name: "note", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image" }
+
+      - name: "stay"
+        label: "Where to stay section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "stay.heading", widget: "string" }
+          - label: "Regions"
+            name: "stay.regions"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Photo alt text", name: "alt", widget: "string" }
+
+      - name: "lifestyle"
+        label: "Lifestyle section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "lifestyle.heading", widget: "string" }
+          - label: "Items"
+            name: "lifestyle.items"
+            widget: "list"
+            fields:
+              - { label: "Town", name: "town", widget: "string" }
+              - { label: "Note", name: "note", widget: "text" }
+
+      - name: "community"
+        label: "Community section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "community.heading", widget: "string" }
+          - { label: "Intro", name: "community.intro", widget: "text" }
+          - label: "Services"
+            name: "community.services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+      - name: "contact"
+        label: "Contact section"
+        file: "content/site.json"
+        fields:
+          - { label: "Heading", name: "contact.heading", widget: "string" }
+          - { label: "Intro", name: "contact.intro", widget: "text" }
+          - { label: "Web3Forms access key", name: "contact.web3forms_access_key", widget: "string", hint: "From web3forms.com — see README." }
+          - { label: "Fallback email", name: "contact.fallback_email", widget: "string" }
+          - label: "Social links"
+            name: "contact.social"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+
+      - name: "footer"
+        label: "Footer"
+        file: "content/site.json"
+        fields:
+          - { label: "Tagline", name: "footer.tagline", widget: "text" }
+          - { label: "Credit line", name: "footer.credit", widget: "string" }

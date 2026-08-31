@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img">
+  <title>Placeholder: Rovinj coastline at dusk — replace with real photography</title>
+  <rect width="800" height="600" fill="#1F4257"/>
+  <rect y="380" width="800" height="220" fill="#2C5A70"/>
+  <g fill="#16303F">
+    <rect x="120" y="300" width="34" height="90"/>
+    <polygon points="112,300 162,300 137,270"/>
+    <rect x="165" y="320" width="28" height="70"/>
+    <polygon points="160,320 198,320 179,296"/>
+    <rect x="205" y="280" width="40" height="110"/>
+    <polygon points="196,280 254,280 225,244"/>
+    <rect x="255" y="310" width="30" height="80"/>
+    <polygon points="250,310 290,310 270,284"/>
+  </g>
+  <circle cx="640" cy="160" r="46" fill="#E9C177"/>
+  <path d="M0,395 Q100,380 200,396 T400,392 T600,398 T800,390 L800,400 L0,400 Z" fill="#3E7086"/>
+</svg>
