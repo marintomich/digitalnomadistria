@@ -223,10 +223,11 @@ p { margin: 0; }
 .mobile-menu {
   position: fixed;
   inset: 0;
-  top: 68px;
+  top: 0;
   background: var(--limestone);
   z-index: 90;
-  padding: 1rem 1.75rem 2rem;
+  padding: 5.5rem 1.75rem 2.5rem;
+  overflow-y: auto;
   transform: translateY(-8px);
   opacity: 0;
   pointer-events: none;
